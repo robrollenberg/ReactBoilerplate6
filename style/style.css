@@ -1,0 +1,102 @@
+body {
+  padding-top: 50px;
+  background-color: #f0f0f0;
+  background-image: url('/../src/images/basis.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-size: 12px;
+}
+
+.navbar {
+  height: 50px;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.active {
+  font-weight: bold;
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+  line-height: 1.0;
+}
+
+.white-text {
+  font-weight: bolder;
+}
+
+th {
+  color: #fbdd2d;
+}
+
+.table>tbody>tr>td {
+  border-color: #666;
+}
+
+.panel-default {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #ddd;
+  border: 0;
+}
+
+.panel-default>.panel-heading {
+  background-color: transparent;
+  color: white;
+  border-left: 10px #ff4500 solid;
+}
+
+.row {
+  padding-top: 20px;
+}
+
+.interactive-bg {
+  min-height: 100vh;
+}
+
+.nextRace {
+  background-color: rgb(102,51,153);
+  border-radius: 50px;
+  color: white;
+  padding: 2px 8px 2px 8px;
+}
+
+.btnFullPhoto {
+  position: fixed;
+  right: 15px;
+}
+
+.btn {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+a {
+  color: #ff4500;
+}
+
+a:hover {
+  color: #b93200;
+}
+
+.f1-grid {
+  height: 40px;
+}
+
+.f1-grid-border {
+  border-left: 2px white solid;
+  border-top: 2px white solid;
+  border-right: 2px white solid;
+  height: 15px;
+  width: 60px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.f1-grid-title {
+  margin-top: -5px;
+}
+
+.f1-grid-text {
+  width: 60px;
+}
